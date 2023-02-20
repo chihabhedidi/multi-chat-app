@@ -1,0 +1,79 @@
+.button_send{
+    -fx-background-radius: 50;
+    -fx-background-color: linear-gradient(to top right, #2980B9, #6DD5FA);
+
+}
+.button_send:pressed{
+    -fx-background-radius: 50;
+    -fx-background-color: #124fb3;
+}
+.back{
+       
+
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+      -fx-background-radius: 12;
+}
+.tab-pane .tab
+{
+    -fx-background-color: #e6e6e6;
+
+}
+
+.tab-pane .tab:selected
+{
+   -fx-background-color: linear-gradient(to top right, #2980B9, #6DD5FA);
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:even {
+  
+-fx-text-fill: black;
+-fx-alignment: CENTER;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+}
+.list-view .list-cell:odd {
+  
+-fx-text-fill: black;
+-fx-alignment: CENTER;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+}
+.list-view .list-cell:selected{
+    
+      -fx-background-color: linear-gradient(to top right, #2980B9, #6DD5FA);
+-fx-text-fill: white;
+-fx-alignment: CENTER;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+   
+}
+
+.textarea .content{
+    
+    -fx-background-color:  white;
+
+}
